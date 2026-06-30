@@ -1,0 +1,112 @@
+/* --- Global Settings --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f7f8;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* --- Layout Containers --- */
+.cart-container {
+    max-width: 600px; /* Kept narrow and focused for a clean single-column checkout form */
+    width: 100%;
+}
+
+.checkout-form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eef2f5;
+}
+
+.checkout-form h2 {
+    margin-bottom: 25px;
+    color: #222;
+    font-size: 1.4rem;
+    border-bottom: 2px solid #f0f2f5;
+    padding-bottom: 10px;
+}
+
+/* --- Form Fields Layout --- */
+.form-group {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form-group label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #444;
+}
+
+.form-group input, 
+.form-group select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #5c2d91;
+}
+
+
+.checkout-btn {
+    width: 100%;
+    background-color: #5c2d91; 
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+
+.checkout-btn:hover {
+    background-color: #4a2076;
+}
+
+
+.cart-summary {
+    background-color: #fafbfc;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px dashed #ccd1d9;
+    text-align: center;
+}
+
+.cart-summary h3 {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.cart-summary p {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.cart-summary h2 {
+    font-size: 1.6rem;
+    color: #111;
+    margin-top: 5px;
+}

@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    padding: 40px 20px;
+}
+
+
+.orders-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.section-header h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #eceff1;
+    padding-bottom: 10px;
+}
+
+/* Table Styling */
+.orders-display-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.orders-display-table th {
+    background-color: #f8f9fa;
+    color: #7f8c8d;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px;
+    border-bottom: 2px solid #eceff1;
+}
+
+.orders-display-table td {
+    padding: 15px;
+    border-bottom: 1px solid #eceff1;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+
+.orders-display-table tbody tr:hover {
+    background-color: #fcfdfd;
+}
+
+/* Customer Details Column */
+.cs-name {
+    font-weight: bold;
+    color: #2c3e50;
+}
+.cs-phone {
+    font-size: 13px;
+    color: #7f8c8d;
+    margin: 3px 0;
+}
+.cs-address {
+    font-size: 13px;
+    color: #95a5a6;
+}
+
+/* Products Column */
+.products {
+    max-width: 250px;
+    color: #34495e;
+    line-height: 1.4;
+}
+
+.total_amount {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+
+.status-form {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.status-dropdown {
+    padding: 8px 12px;
+    border: 1px solid #ccd1d9;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #434a54;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.status-dropdown:focus {
+    border-color: #3498db;
+}
+
+.btn-save {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    transition: background 0.2s ease;
+}
+
+.btn-save:hover {
+    background-color: #2980b9;
+}
+
+
+.txt-completed {
+    color: #27ae60;
+    font-weight: 600;
+    background-color: #e8f8f5;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    display: inline-block;
+}
+
+
+.no-data {
+    text-align: center;
+    color: #95a5a6;
+    padding: 30px !important;
+    font-style: italic;
+}

@@ -1,0 +1,38 @@
+
+.sidebar {
+    width: 230px;
+    background: #1e293b; /* Clean Dark Navy Slate */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    height: 100vh;
+}
+
+
+.sidebar .logo {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #334155;
+    margin-bottom: 20px;
+}
+
+/* Navigation Links */
+.sidebar a {
+    color: #cbd5e1;
+    text-decoration: none;
+    padding: 12px 20px;
+    display: block;
+    font-size: 15px;
+    transition: background 0.2s ease;
+}
+
+
+.sidebar a:hover, 
+.sidebar a.active {
+    background: #334155;
+    color: white;
+    border-left: 4px solid #10b981; 
+}

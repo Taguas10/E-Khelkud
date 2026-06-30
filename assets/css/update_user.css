@@ -1,0 +1,129 @@
+/* ==========================================================================
+   1. Base & Page Setup
+   ========================================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4; /* Light gray background matching your shop */
+    color: #333333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #333333;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* ==========================================================================
+   2. Profile Form Box Design
+   ========================================================================== */
+.update_user {
+    background-color: #ffffff; /* Clean white card layout background */
+    width: 100%;
+    max-width: 420px;
+    padding: 30px;
+    border-radius: 4px;
+    border: 1px solid #e2e2e2;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #444444;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+    border-color: #00bcd4; /* Matches your layout cyan accent theme */
+}
+
+/* ==========================================================================
+   3. Buttons & Links Layout
+   ========================================================================== */
+button[type="submit"] {
+    width: 100%;
+    background-color: #00a0c4; /* Matching shop teal blue button color */
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-bottom: 15px;
+}
+
+button[type="submit"]:hover {
+    background-color: #008ca8;
+}
+
+/* "Back to shop" Link Layout navigation link */
+.update_user a {
+    display: block;
+    text-align: center;
+    color: #00a0c4;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.update_user a:hover {
+    color: #008ca8;
+    text-decoration: underline;
+}
+
+/* ==========================================================================
+   4. Status Alert Notification Styles
+   ========================================================================== */
+.alert-error, .alert-success {
+    width: 100%;
+    max-width: 420px;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.alert-error {
+    background-color: #fce8e6;
+    color: #cc0000;
+    border: 1px solid #faccda;
+}
+
+.alert-success {
+    background-color: #e6f4ea;
+    color: #137333;
+    border: 1px solid #ceead6;
+}

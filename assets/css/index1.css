@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4; 
+    min-height: 100vh;
+}
+
+/* ==========================================================================
+   2. Dark Header Bar Layout
+   ========================================================================== */
+header {
+    background-color: #333333; 
+    padding: 15px 0;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0px;
+}
+
+.logo h1 {
+    color: #00bcd4; 
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.links {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;   
+    margin-right: auto;  
+}
+.links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    justify-content: left;
+    font-size: 15px;
+    font-weight: normal;
+   
+}
+
+.links a:hover {
+    color: #00bcd4;
+}
+
+
+.nav-buttons a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 20px;
+    display: inline-block;
+    transition: color 0.2s;
+}
+
+.nav-buttons a:hover {
+    color: #00bcd4;
+}
+
+
+.btn-login {
+    font-weight: bold;
+}
+
+.btn-register {
+    font-weight: bold;
+    color: #00bcd4 ;
+}
+
+
+.body-section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.body-section h2 {
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.btn-shop {
+    display: inline-block;
+    background-color: #00a0c4; 
+    padding: 12px 35px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+.btn-shop:hover {
+    background-color: #008ca8; 
+}
+
+
+.feature-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px 60px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.feature-card, .feature {
+    background-color: #ffffff; 
+    padding: 35px 25px;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid #e2e2e2; 
+
+}
+
+.feature-card h3, .feature h3 {
+    color: #000000;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.feature-card p, .feature p {
+    color: #555555; 
+    font-size: 14px;
+    line-height: 1.6;
+}
